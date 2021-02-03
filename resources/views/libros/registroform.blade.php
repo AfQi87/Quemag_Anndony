@@ -52,7 +52,7 @@
 
            
         <br><br>
-        <button type="submit" class="btn btn-success" >Registrar</button>
+        <button type="submit" onclick="return alerta()" class="btn btn-success" >Registrar</button>
         <a href="{{url('/')}}"  class="btn btn-danger" >Cancelar</a>
         <a href="{{url('libros/lista')}}"  class="btn btn-info" >Listar</a>
         

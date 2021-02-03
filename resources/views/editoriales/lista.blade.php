@@ -14,7 +14,6 @@
                     <th scope="col">Direccion</th>
                     <th scope="col">Ciudad</th>
                     <th scope="col">Telefono</th>
-                    <th scope="col">Más</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -24,11 +23,7 @@
                         <td> {{$p->nombre}}</td>
                         <td> {{$p->direccion}}</td>
                         <td> {{$p->ciudad}}</td>
-                        <td> {{$p->telefono}}</td>
-                        <td> 
-                            <a href=""  class="btn btn-success">Editar</a> 
-                            
-                        </td>     
+                        <td> {{$p->telefono}}</td>     
                         </tr>
                     @endforeach
                 </tbody>

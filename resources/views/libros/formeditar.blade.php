@@ -39,7 +39,9 @@
             </select>
         </div>
         <br><br>
-        <button type="submit" class="btn btn-success" >Actualizar</button>
+        <button type="submit" class="btn btn-success" onclick="return alerta()" >Actualizar</button>
+        <a href="{{url('/')}}" class="btn btn-danger" >Cancelar</a>
+        <a href="{{url('libros/lista')}}"  class="btn btn-info" >Listar</a>
         <br><br>
 
     </form>

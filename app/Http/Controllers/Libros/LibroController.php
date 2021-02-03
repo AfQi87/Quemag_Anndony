@@ -104,13 +104,10 @@ class LibroController extends Controller
         foreach($libro as $l){
             if($l->stock <11 && $l->stock >0 ){
                 $aux[$i]='Ultimas Unidades';
-
-                
             }else{
                 if($l->stock >10){
                     $aux[$i]='Disponible';
                 }else{
-
                     $aux[$i]='agotado';
                 }
             }

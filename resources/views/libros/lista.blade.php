@@ -44,7 +44,7 @@
                         <td> {{$auxt[$i]}}</td>
                         <td> 
                             <a href="{{route('editarLibro', $p->id)}}"  class="btn btn-success">Editar</a> 
-                            <a href="{{route('eliminarLibro', $p->id)}}"  class="btn btn-danger" >Eliminar</a>
+                            <a href="{{route('eliminarLibro', $p->id)}}" onclick="return alerta()" class="btn btn-danger" >Eliminar</a>
                         </td>     
                         </tr>
                         @php
