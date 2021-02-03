@@ -20,7 +20,7 @@
     <div class="row"> 
 
         <div class="col-md-12 text-right">
-            <p class="text-muted small">"Anndony Quemag" @2020.<br> Todos los derechos reservados.</p>   
+            <p class="text-muted small"> <h5>"Anndony Quemag -- Parcial A"</h5> <br> @2020.<br> Todos los derechos reservados.</p>   
         </div>
         
     </div>
